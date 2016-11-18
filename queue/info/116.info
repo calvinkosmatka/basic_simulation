@@ -1,0 +1,8 @@
+varyRate
+queue 50 
+div2 = 1
+div1 = 1.2
+numGenes = 100
+numSims = 1000
+recomRate = 0:.05:5
+2 failed
