@@ -1,0 +1,7 @@
+varyRate
+queue 50 
+div2 = 1
+div1 = 1.01
+numGenes = 100
+numSims = 1000
+recomRate = 0:.01:1
