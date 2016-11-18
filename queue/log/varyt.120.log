@@ -1304,3 +1304,93 @@
 	   Disk (KB)            :    12500    12500    995458
 	   Memory (MB)          :      325       13        13
 ...
+011 (120.035.000) 11/18 13:56:39 Job was unsuspended.
+...
+004 (120.035.000) 11/18 13:56:39 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:02:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500    926568
+	   Memory (MB)          :      314       13        13
+...
+011 (120.034.000) 11/18 13:56:40 Job was unsuspended.
+...
+011 (120.037.000) 11/18 13:56:40 Job was unsuspended.
+...
+004 (120.034.000) 11/18 13:56:40 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:02:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500    924123
+	   Memory (MB)          :      327       13        13
+...
+004 (120.037.000) 11/18 13:56:40 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:02:03, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500   1072173
+	   Memory (MB)          :      327       13        13
+...
+001 (120.034.000) 11/18 13:57:12 Job executing on host: <144.92.166.230:38756?addrs=144.92.166.230-38756>
+...
+001 (120.037.000) 11/18 14:00:37 Job executing on host: <144.92.166.214:35375?addrs=144.92.166.214-35375>
+...
+001 (120.035.000) 11/18 14:00:37 Job executing on host: <144.92.166.201:46755?addrs=144.92.166.201-46755>
+...
+005 (120.034.000) 11/18 14:01:40 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:13, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:13, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500    492702
+	   Memory (MB)          :      342      342       733
+...
+005 (120.037.000) 11/18 14:05:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:19, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:19, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500    274860
+	   Memory (MB)          :      342      342       342
+...
+005 (120.035.000) 11/18 14:05:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:36, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:36, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :    12500    12500    285487
+	   Memory (MB)          :      318      318       318
+...
