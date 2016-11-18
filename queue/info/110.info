@@ -5,3 +5,4 @@ numGenes = 100
 numSims = 1000
 recomRate = 2
 t = 0:.01:1
+only 48 successful
