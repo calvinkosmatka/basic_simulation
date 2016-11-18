@@ -1,0 +1,7 @@
+varyt
+queue 50 
+div2 = 1
+numGenes = 100
+numSims = 1000
+recomRate = 1
+t = 0:.05:2
