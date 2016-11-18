@@ -517,20 +517,20 @@ indexShorter1 = (initialGraphType == 1 | initialGraphType ==2 );
 
 indexShorter2 = (initialGraphType == 3);
 indexShorter3 = (initialGraphType == 4);
-treeThatNotStop(indexShorter1,1) = newDis(shorter(indexShorter1),1);
-treeThatNotStop(indexShorter1,2) = newDis(longer(indexShorter1),1);
-treeThatNotStop(indexShorter1,3) = newDis(longer(indexShorter1),1);
+treeThatNotStop(indexShorter1,1) = newDis(shorter(indexShorter1),u);
+treeThatNotStop(indexShorter1,2) = newDis(longer(indexShorter1),u);
+treeThatNotStop(indexShorter1,3) = newDis(longer(indexShorter1),u);
 
-treeThatNotStop(indexShorter2,2) = newDis(shorter(indexShorter2),1);
-treeThatNotStop(indexShorter2,1) = newDis(longer(indexShorter2),1);
-treeThatNotStop(indexShorter2,3) = newDis(longer(indexShorter2),1);
+treeThatNotStop(indexShorter2,2) = newDis(shorter(indexShorter2),u);
+treeThatNotStop(indexShorter2,1) = newDis(longer(indexShorter2),u);
+treeThatNotStop(indexShorter2,3) = newDis(longer(indexShorter2),u);
 
-treeThatNotStop(indexShorter3,3) = newDis(shorter(indexShorter3),1);
-treeThatNotStop(indexShorter3,1) = newDis(longer(indexShorter3),1);
-treeThatNotStop(indexShorter3,2) = newDis(longer(indexShorter3),1);
-if whileLoopIteration == input
-temping111 = [temping111;treeThatNotStop];
-end
+treeThatNotStop(indexShorter3,3) = newDis(shorter(indexShorter3),u);
+treeThatNotStop(indexShorter3,1) = newDis(longer(indexShorter3),u);
+treeThatNotStop(indexShorter3,2) = newDis(longer(indexShorter3),u);
+%if whileLoopIteration == input
+%temping111 = [temping111;treeThatNotStop];
+%end
 %if whileLoopIteration == 6
 %%%temping222 = treeThatNotStop;
 %end

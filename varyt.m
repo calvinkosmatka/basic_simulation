@@ -13,7 +13,7 @@ function [] = varyt(process, geneNum, simTimes, rate, div2, start, stop, step)
 	for t = start:step:stop
 		disp(t);
 		
-		distArray = simulWithRc7(div2 + t, div2, geneNum, rate, simTimes);
+		distArray = simulWithRc7(div2 + t, div2, geneNum, rate, simTimes,0,1);
 		minResults = inferenceMin6(distArray, geneNum, simTimes);
 		avgResults = inferenceAverage6(distArray, geneNum, simTimes);
 		majResults = inferenceMajority6(distArray, geneNum, simTimes);
