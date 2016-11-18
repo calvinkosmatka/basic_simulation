@@ -1,9 +1,9 @@
 function [] = parse_output()
 	fclose('all');
-    cluster = 319;
-	total = 500000; %see $cluster.info file
+    cluster = 376;
+	total = 500000; %see $cluster.info file = queue# * numSims
     L = 100;
-	files = dir(sprintf('outdir/basicSimul.%u.*.out',cluster));
+	files = dir(sprintf('outdir/varyt.%u.*.out',cluster));
 	numFiles = size(files);
     
     [arrayLength, ~] = size(fscanf(fopen(sprintf('outdir/%s',files(1).name)), '%f\n'));
@@ -33,9 +33,21 @@ function [] = parse_output()
     end
     %transform to decay rates
     for i = 1:arrayLength
-        minArray(i) = (minArray(i)==0)*(-log(1/total)/L)+(minArray(i)~=0)*(-log(1-minArray(i))/L);
-        avgArray(i) = (avgArray(i)==0)*(-log(1/total)/L)+(avgArray(i)~=0)*(-log(1-avgArray(i))/L);
-        majArray(i) = (majArray(i)==0)*(-log(1/total)/L)+(majArray(i)~=0)*(-log(1-majArray(i))/L);
+        if minArray(i)==1
+            minArray(i) = (-log(1/total)/L);
+        else
+            minArray(i) = (-log(1-minArray(i))/L);
+        end
+        if avgArray(i)==1
+            avgArray(i) = (-log(1/total)/L);
+        else
+            avgArray(i) = (-log(1-avgArray(i))/L);
+        end
+        if majArray(i)==1
+            majArray(i) = (-log(1/total)/L);
+        else
+            majArray(i) = (-log(1-majArray(i))/L);
+        end
     end
         
     plot(rateArray, minArray, 'r', rateArray, avgArray, 'g', rateArray, majArray, 'b');
