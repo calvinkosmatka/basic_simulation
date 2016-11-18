@@ -5,3 +5,4 @@ div1 = 1.1
 numGenes = 100
 numSims = 1000
 recomRate = 0:.05:5
+2 failed again
