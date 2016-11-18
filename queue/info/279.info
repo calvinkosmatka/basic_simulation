@@ -1,0 +1,7 @@
+queue 10
+div1 = 1
+div2 = 2
+numGenes = 100
+numSims = 100000
+recomRate = $PROCESS/9
+Canceled

@@ -1,0 +1,16 @@
+## to compile:
+## /usr/local/matlab/bin/mcc -m -R -singleCompThread -R -nodisplay -R -nojvm ./basicSimul.m
+
+universe = vanilla
+
+executable = varyt
+
+environment = MCR_CACHE_ROOT=/tmp/emtydir;MATLAB_PREFDIR=/tmp/emptydir;LD_LIBRARY_PATH=/usr/local/matlab/bin/glnxa64:/usr/local/matlab/sys/os/glnxa64:/usr/local/matlab/runtime/glnxa64
+## process genenum simulnum rate div2 start stop step
+args = $(PROCESS) 100 1000 1 1 0 2 .05
+
+output = outdir/varyt.$(CLUSTER).$(PROCESS).out
+error = queue/error/varyt.$(CLUSTER).$(PROCESS).err
+log = queue/log/varyt.$(CLUSTER).log
+
+queue 50

@@ -1,0 +1,19 @@
+Error using log
+Out of memory. Type HELP MEMORY for your options.
+
+Error in exprnd (line 34)
+
+
+Error in random (line 103)
+
+
+Error in simul6 (line 28)
+
+
+Error in simulWithRc5 (line 2)
+
+
+Error in basicSimul (line 6)
+
+
+MATLAB:nomem

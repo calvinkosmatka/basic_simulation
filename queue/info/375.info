@@ -1,0 +1,7 @@
+queue 50
+rate = 1
+div2 = 5
+numGenes = 100
+numSims = 10000
+t = 0:.1:5
+varyt

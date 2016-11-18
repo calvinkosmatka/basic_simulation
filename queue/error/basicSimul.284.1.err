@@ -1,0 +1,19 @@
+Error using statsizechk
+Requested 2x10000000000 (149.0GB) array exceeds maximum array size preference. Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive. See <a href="matlab: helpview([docroot '/matlab/helptargets.map'], 'matlab_env_workspace_prefs')">array size limit</a> or preference panel for more information.
+
+Error in exprnd (line 25)
+
+
+Error in random (line 103)
+
+
+Error in simul6 (line 4)
+
+
+Error in simulWithRc5 (line 2)
+
+
+Error in basicSimul (line 6)
+
+
+MATLAB:array:SizeLimitExceeded

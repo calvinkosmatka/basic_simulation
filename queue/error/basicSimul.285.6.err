@@ -1,0 +1,13 @@
+Error using horzcat
+Out of memory. Type HELP MEMORY for your options.
+
+Error in simul6 (line 51)
+
+
+Error in simulWithRc5 (line 2)
+
+
+Error in basicSimul (line 6)
+
+
+MATLAB:nomem

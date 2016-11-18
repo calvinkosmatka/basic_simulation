@@ -1,0 +1,7 @@
+queue 50
+div1 = 5.5
+div2 = 5
+numGenes = 100
+numSims = 10000
+recomRate = 0:1:10
+new basicSimul.m

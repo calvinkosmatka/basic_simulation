@@ -1,0 +1,7 @@
+queue 50
+div1 = 1.5
+div2 = 1
+numGenes = 100
+numSims = 100
+recomRate = 0:.01:1
+new data format

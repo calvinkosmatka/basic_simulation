@@ -1,0 +1,8 @@
+queue 50
+rate = 1
+div2 = .1
+numGenes = 100
+numSims = 10000
+t = 0:.5:20
+says varydiv2
+Actually varyt

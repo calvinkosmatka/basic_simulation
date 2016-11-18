@@ -1,0 +1,8 @@
+queue 50
+div1 = 2
+div2 = 1
+numGenes = 1000
+numSims = 100
+recomRate = 0:.01:1
+new data format
+this one had no failures....
