@@ -1,0 +1,8 @@
+varydiv2
+queue 50 
+t = .1
+rate = .5
+numGenes = 100
+numSims = 10000
+div2 = 0:.1:10
+2 failed

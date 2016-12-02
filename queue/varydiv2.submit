@@ -7,7 +7,7 @@ executable = varydiv2
 
 environment = MCR_CACHE_ROOT=/tmp/emtydir;MATLAB_PREFDIR=/tmp/emptydir;LD_LIBRARY_PATH=/usr/local/matlab/bin/glnxa64:/usr/local/matlab/sys/os/glnxa64:/usr/local/matlab/runtime/glnxa64
 ## process genenum simulnum rate t start stop step
-args = $(PROCESS) 100 10000 1 .1 0 20 .5
+args = $(PROCESS) 100 10000 .5 .1 0 10 .1
 
 output = outdir/varydiv2.$(CLUSTER).$(PROCESS).out
 error = queue/error/varydiv2.$(CLUSTER).$(PROCESS).err
