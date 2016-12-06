@@ -5,3 +5,4 @@ div1 = 10.2
 numGenes = 100
 numSims = 10000
 t = 0:.01:1
+at least 1 failure

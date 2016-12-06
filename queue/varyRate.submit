@@ -7,7 +7,7 @@ executable = varyRate
 
 environment = MCR_CACHE_ROOT=/tmp/emtydir;MATLAB_PREFDIR=/tmp/emptydir;LD_LIBRARY_PATH=/usr/local/matlab/bin/glnxa64:/usr/local/matlab/sys/os/glnxa64:/usr/local/matlab/runtime/glnxa64
 ## process genenum simulnum div1 div2 start stop step
-args = $(PROCESS) 100 10000 10.2 10 0 1 .01
+args = $(PROCESS) 100 1000 10.2 10 0 .005 .00005
 
 output = outdir/varyRate.$(CLUSTER).$(PROCESS).out
 error = queue/error/varyRate.$(CLUSTER).$(PROCESS).err
